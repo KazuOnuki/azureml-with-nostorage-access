@@ -15,4 +15,4 @@ This is Project to create azureml project (using dsvm etc) with no storage acces
   - *check whether the private-endpoint to Default Storage is created with `target-subresource` of both `blob` and `file`*
 
 ## Overview
-![overview](./ train-on-dsvm-with-no-otherstorage-access/overview.png)
+![overview](./train-on-dsvm-with-no-otherstorage-access/overview.png)
