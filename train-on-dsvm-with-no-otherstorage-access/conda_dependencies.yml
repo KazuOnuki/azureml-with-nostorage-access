@@ -1,0 +1,7 @@
+
+dependencies:
+- python=3.8.0
+- scikit-learn
+- pip:
+  - azureml-defaults
+  - packaging
