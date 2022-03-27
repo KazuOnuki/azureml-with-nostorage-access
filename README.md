@@ -9,7 +9,7 @@ This is Project to create azureml project (using dsvm etc) with no storage acces
 ## Condition
 - DSVM is in the same subnet (eg. `TrainingSubnet`) as private-endpoint to AML Workspace
 - NSG assigned to subnet `TrainingSubnet` blocks Outbound to `Storage` service tag
-  - *if you clone from notebook sample, download from `OpenDatasets`, or recreate Computing Instance/Computing Cluster, you need to allow Outbound to `Storage` service tag*
+  - *WHEN you clone from notebook sample, download from `OpenDatasets`, or recreate Computing Instance/Computing Cluster, you need to allow Outbound to `Storage` service tag*
 - Default Storage in Workspace is private-link connected with subnet `TrainingSubnet`
   - *if you create private-endpoint in Azure Portal, private-endpoint-network-policy is disabled by default. otherwise, check it.*
   - *check whether the private-endpoint to Default Storage is created with `target-subresource` of both `blob` and `file`*
